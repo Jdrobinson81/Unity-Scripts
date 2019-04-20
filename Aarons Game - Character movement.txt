@@ -35,7 +35,7 @@ public class Enemy : Mover
         //I will need to tackle this block of code next
         for(triggerLength < 200, TriggerLength++)
         {
-        
+            //Aaron this will have to be corrected by you. I am not sure what you used in place of playerTransoform
             if(Vector3.Distance(playerTransform.position, startingPosition) < chaseLength)
             {
                 if (Vector3.Distance(playerTransform.position, startingPosition) < triggerLength)
